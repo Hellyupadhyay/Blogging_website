@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  text-align: justify;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 400px;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-signin h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-control:focus {
+  border-color: #1abc9c;
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5);
+}
+
+.form-check-label {
+  color: #495057;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 10px;
+  background-color: #1abc9c;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #16a085;
+  transform: scale(1.05);
+}
+
+.par-btn{
+  text-align: center;
+}
+
+.text-body-secondary {
+  color: #6c757d !important;
+  text-align: center;
+}

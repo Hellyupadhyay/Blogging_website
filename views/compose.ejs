@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+
+<h1>Compose your blog</h1>
+<form class="Compose" action="/compose" method="post">
+  <div class="form-group">
+   <label for="exampleInputEmail1">Title</label>
+   <input type="text" class="form-control form-control-lg" name="postTitle" placeholder="Title for your blog">
+  </div>
+  <div class="form-group">
+    <label for="exampleFormControlTextarea1">Post</label>
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Type your heart-out" name="content"></textarea>
+  </div>
+  <button type="submit" name="button" class="btn btn-primary">Compose</button>
+  </div>
+</form>
+
+<%- include("partials/footer") -%>
